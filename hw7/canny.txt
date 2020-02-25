@@ -1,0 +1,34 @@
+Gaussian smooth			52.04%				
+	Receive_Image	1.67%
+	Gaussian_Kernel	0.00%
+	BlurX		23.70%
+	BlurY		26.67%
+Derivative_X_Y			8.97%
+Magnitude_X_Y			4.28%
+Non_Max_Supp			18.59%
+Apply_Hysteresis 		16.13%
+		      		------
+				 100%
+		      		------
+
+
+Note: img_queue overhead was not taken in while calculating the precentage load, since we are not sure of 
+how much img_queue is used by each DUT component.
+
+
+Gaussian smooth			8.19sec		54.92%
+	Receive_Image	1.97sec			13.21%
+	Gaussian_Kernel	0.00sec			0%
+	BlurX		2.92sec			19.58%
+	BlurY		3.30sec			22.13%
+Derivative_X_Y			1.13sec		7.57%
+Magnitude_X_Y			1.01sec		6.77%
+Non_Max_Supp			2.30sec		15.42%
+Apply_Hysteresis		2.28sec		15.29%
+				------		------
+				14.91sec	100%
+				------		------
+
+Note: The above numbers were arrived at by noting down the time at the entry of each main method and taking
+the difference
+ 
