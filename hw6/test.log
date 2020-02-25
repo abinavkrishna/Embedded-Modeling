@@ -1,0 +1,463 @@
+Reading the image video/EngPlaza001.pgm.
+Stimulus sent frame  1.
+Reading the image video/EngPlaza002.pgm.
+Stimulus sent frame  2.
+Reading the image video/EngPlaza003.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Stimulus sent frame  3.
+Reading the image video/EngPlaza004.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  4.
+Reading the image video/EngPlaza005.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 588 1959
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  5.
+Reading the image video/EngPlaza006.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 549 1831
+Monitor received frame  1.
+Writing the edge image in the file EngPlaza001_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  6.
+Reading the image video/EngPlaza007.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 528 1761
+Monitor received frame  2.
+Writing the edge image in the file EngPlaza002_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  7.
+Reading the image video/EngPlaza008.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 515 1717
+Monitor received frame  3.
+Writing the edge image in the file EngPlaza003_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  8.
+Reading the image video/EngPlaza009.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 501 1670
+Monitor received frame  4.
+Writing the edge image in the file EngPlaza004_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame  9.
+Reading the image video/EngPlaza010.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 455 1518
+Monitor received frame  5.
+Writing the edge image in the file EngPlaza005_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 10.
+Reading the image video/EngPlaza011.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 379 1264
+Monitor received frame  6.
+Writing the edge image in the file EngPlaza006_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 11.
+Reading the image video/EngPlaza012.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 242 807
+Monitor received frame  7.
+Writing the edge image in the file EngPlaza007_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 12.
+Reading the image video/EngPlaza013.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 335 1116
+Monitor received frame  8.
+Writing the edge image in the file EngPlaza008_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 13.
+Reading the image video/EngPlaza014.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 467 1558
+Monitor received frame  9.
+Writing the edge image in the file EngPlaza009_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 14.
+Reading the image video/EngPlaza015.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 707 2357
+Monitor received frame 10.
+Writing the edge image in the file EngPlaza010_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 15.
+Reading the image video/EngPlaza016.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 867 2889
+Monitor received frame 11.
+Writing the edge image in the file EngPlaza011_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 16.
+Reading the image video/EngPlaza017.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 908 3028
+Monitor received frame 12.
+Writing the edge image in the file EngPlaza012_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 17.
+Reading the image video/EngPlaza018.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 881 2936
+Monitor received frame 13.
+Writing the edge image in the file EngPlaza013_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 18.
+Reading the image video/EngPlaza019.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 704 2346
+Monitor received frame 14.
+Writing the edge image in the file EngPlaza014_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 19.
+Reading the image video/EngPlaza020.pgm.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 741 2469
+Monitor received frame 15.
+Writing the edge image in the file EngPlaza015_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Stimulus sent frame 20.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 781 2604
+Monitor received frame 16.
+Writing the edge image in the file EngPlaza016_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Smoothing the image using a gaussian kernel.
+   Computing the gaussian smoothing kernel.
+      The kernel has 5 elements.
+The filter coefficients are:
+kernel[0] = 0.002566
+kernel[1] = 0.165525
+kernel[2] = 0.663818
+kernel[3] = 0.165525
+kernel[4] = 0.002566
+   Blurring the image in the X-direction.
+   Blurring the image in the Y-direction.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 708 2359
+Monitor received frame 17.
+Writing the edge image in the file EngPlaza017_edges.pgm.
+Computing the X and Y first derivatives.
+   Computing the X-direction derivative.
+   Computing the Y-direction derivative.
+Doing the non-maximal suppression.
+Computing the magnitude of the gradient.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 492 1641
+Monitor received frame 18.
+Writing the edge image in the file EngPlaza018_edges.pgm.
+Doing the non-maximal suppression.
+Doing hysteresis thresholding.
+The input low and high fractions of 0.300000 and 0.800000 computed to
+magnitude of the gradient threshold values of: 772 2572
+Monitor received frame 19.
+Writing the edge image in the file EngPlaza019_edges.pgm.
+Monitor received frame 20.
+Writing the edge image in the file EngPlaza020_edges.pgm.
+Monitor exits simulation.
+
+Info: /OSCI/SystemC: Simulation stopped by user.

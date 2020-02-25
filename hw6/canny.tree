@@ -1,0 +1,121 @@
+
+start processing file:  ...
++++++++++++++++++++ Hierarchy Modules ++++++++++++++++++++
+
+---- ::Top top
+     |
+     |---- ::Stimulus stimulus
+     |    |
+     |    |-sc_fifo_out < IMAGE > ImgOut->
+     |    |    |-> ::Top top->sc_fifo < IMAGE > q1
+     |    |
+     |    |----::IMAGE imageout
+     |
+     |---- ::Platform platform
+     |    |
+     |    |-sc_fifo_in < IMAGE > ImgIn->
+     |    |    |-> ::Top top->sc_fifo < IMAGE > q1
+     |    |
+     |    |-sc_fifo_out < IMAGE > ImgOut->
+     |    |    |-> ::Top top->sc_fifo < IMAGE > q2
+     |    |
+     |    |---- ::DataIn din
+     |    |    |
+     |    |    |-sc_fifo_in < IMAGE > ImgIn->
+     |    |    |    |-> ::Top top->sc_fifo < IMAGE > q1
+     |    |    |
+     |    |    |-sc_fifo_out < IMAGE > ImgOut->
+     |    |    |    |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q1
+     |    |    |
+     |    |    |----::IMAGE Image
+     |    |
+     |    |---- ::DUT canny
+     |    |    |
+     |    |    |-sc_fifo_in < IMAGE > ImgIn->
+     |    |    |    |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q1
+     |    |    |
+     |    |    |-sc_fifo_out < IMAGE > ImgOut->
+     |    |    |    |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q2
+     |    |    |
+     |    |    |---- ::Gaussian gaussian
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGE > ImgIn->
+     |    |    |    |    |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q1
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > ImgOut->
+     |    |    |         |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > smoothedIm
+     |    |    |
+     |    |    |---- ::Derivative derivative
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > smoothedImgIn->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > smoothedIm
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > deltaXOut->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaX
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > deltaYOut->
+     |    |    |         |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaY
+     |    |    |
+     |    |    |---- ::Magnitude magnitude
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > derivativeX->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaX
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > derivativeXOut->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaX2
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > derivativeY->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaY
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > derivativeYOut->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaY2
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > magnitudeOut->
+     |    |    |         |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > magnitudeChannel
+     |    |    |
+     |    |    |---- ::NonMaxSup nonmaxsup
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > gradientInX->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaX2
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > gradientInY->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > deltaY2
+     |    |    |    |
+     |    |    |    |-sc_fifo_in < IMAGES > magnitudeIn->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > magnitudeChannel
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGES > magnitudeOut->
+     |    |    |    |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > magnitudeChannel2
+     |    |    |    |
+     |    |    |    |-sc_fifo_out < IMAGE > imageOut->
+     |    |    |         |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGE > result
+     |    |    |
+     |    |    |---- ::Hysteresis hysteresis
+     |    |         |
+     |    |         |-sc_fifo_in < IMAGES > magnitudeIn->
+     |    |         |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGES > magnitudeChannel2
+     |    |         |
+     |    |         |-sc_fifo_in < IMAGE > imageIn->
+     |    |         |    |-> ::Top top-> ::Platform platform-> ::DUT canny->sc_fifo < IMAGE > result
+     |    |         |
+     |    |         |-sc_fifo_out < IMAGE > imageOut->
+     |    |              |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q2
+     |    |
+     |    |---- ::DataOut dout
+     |         |
+     |         |-sc_fifo_in < IMAGE > ImgIn->
+     |         |    |-> ::Top top-> ::Platform platform->sc_fifo < IMAGE > q2
+     |         |
+     |         |-sc_fifo_out < IMAGE > ImgOut->
+     |         |    |-> ::Top top->sc_fifo < IMAGE > q2
+     |         |
+     |         |----::IMAGE Image
+     |
+     |---- ::Monitor monitor
+          |
+          |-sc_fifo_in < IMAGE > ImgIn->
+          |    |-> ::Top top->sc_fifo < IMAGE > q2
+          |
+          |----::IMAGE imagein
+
+end processing file:  ...
