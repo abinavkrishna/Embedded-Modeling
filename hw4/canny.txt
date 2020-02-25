@@ -1,0 +1,5 @@
+Step 1: Completed (g++ compiler did not show column in the error details - little difficult to debug)
+Step 2: Completed (Required constants were defined and unused functions/variables were removed)
+Step 3: Completed (All instances of calloc() malloc() and free() were replaced with fixed size arrays)
+Verified output image with correct image in assignment 1
+

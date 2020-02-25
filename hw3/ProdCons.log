@@ -1,0 +1,42 @@
+sc_main starts
+Producer starts.
+Producer sends 'A'.
+Consumer starts.
+Consumer received 'A'.
+Producer sends 'p'.
+Consumer received 'p'.
+Producer sends 'p'.
+Consumer received 'p'.
+Producer sends 'l'.
+Consumer received 'l'.
+Producer sends 'e'.
+Consumer received 'e'.
+Producer sends 's'.
+Consumer received 's'.
+Producer sends ' '.
+Consumer received ' '.
+Producer sends 'a'.
+Consumer received 'a'.
+Producer sends 'n'.
+Consumer received 'n'.
+Producer sends 'd'.
+Consumer received 'd'.
+Producer sends ' '.
+Consumer received ' '.
+Producer sends 'O'.
+Consumer received 'O'.
+Producer sends 'r'.
+Consumer received 'r'.
+Producer sends 'a'.
+Consumer received 'a'.
+Producer sends 'n'.
+Consumer received 'n'.
+Producer sends 'g'.
+Consumer received 'g'.
+Producer sends 'e'.
+Consumer received 'e'.
+Producer sends 's'.
+Consumer received 's'.
+Consumer done.
+Producer done.
+sc_main ends

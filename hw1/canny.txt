@@ -1,0 +1,5 @@
+Step 1 : Completed
+Step 2 : Completed
+Step 3 : Completed
+Step 4 : Limits of for loops were changed. The bug fix was verified using ImageDiff program.
+Step 5 : Compilation warning were eliminated by correcting the function data types and removing unused variables 
